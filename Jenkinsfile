@@ -21,7 +21,8 @@ pipeline {
 				bat 'docker run -d -p 8087:8080 --name webapp webapp'
 			}
 		}
-
+	}
+}
 
 
 		
