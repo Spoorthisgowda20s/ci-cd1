@@ -12,3 +12,5 @@ public class HelloServlet extends HttpServlet {
 	res.setContentType("text/html")
 	res.getWriter().println("<h2>Hello from serlvet</h2")
 	res.getWriter().println("<p>Github ->Jenkins->Docker</p>")
+		}
+}
