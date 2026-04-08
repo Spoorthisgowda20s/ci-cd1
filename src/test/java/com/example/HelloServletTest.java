@@ -11,9 +11,9 @@ public class HelloServletTest {
 	void testDoGet() throws Exception {
 
 	HttpServlet s = new HttpServlet();
-	HttpServletResponse res = mock(HttpServletResponse.class);
 	HttpServletRequest req = mock(HttpServletRequest.class);
-
+    HttpServletResponse res = mock(HttpServletResponse.class);
+		
 	StringWriter sw = new StringWriter();
 	when(res.getWriter()).thenReturn(new PrintWriter(sw));
 
