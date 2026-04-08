@@ -10,7 +10,7 @@ public class HelloServletTest {
 	@Test
 	void testDoGet() throws Exception {
 
-	HttpServlet s = new HttpServlet();
+	HelloServlet s = new HelloServlet();
 	HttpServletRequest req = mock(HttpServletRequest.class);
     HttpServletResponse res = mock(HttpServletResponse.class);
 		
